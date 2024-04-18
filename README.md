@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Block puzzles
 
 This page contains a Python script `blocks.py` for solving 2D and 3D 
@@ -114,3 +115,6 @@ https://en.wikipedia.org/wiki/Pentomino
 https://en.wikipedia.org/wiki/Hexomino
 
 https://www.youtube.com/watch?v=Jr36wC9cbHI
+=======
+# Visual-Computing-Project
+>>>>>>> f60424b75b44563ea19fd6c2c2d5e50d792b3f97
