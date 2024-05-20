@@ -1,0 +1,3466 @@
+#VRML V2.0 utf8
+
+PROTO KUBUS [field SFVec3f translation 0 0 0 field SFColor color 1 0 0] {
+Transform {
+   translation IS translation
+   children [
+      Shape{geometry Box { size 0.9 0.9 0.9 } appearance Appearance{ material Material { diffuseColor IS color               }}}
+      Shape{geometry Box { size 1.0 1.0 1.0 } appearance Appearance{ material Material { diffuseColor 1 1 1 transparency 0.9 }}}
+   ]
+}}
+
+DEF BLOCK0 Transform {
+       translation 0 0 0
+       children [
+          KUBUS { translation 0 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK1 Transform {
+       translation 5 0 0
+       children [
+          KUBUS { translation 0 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK2 Transform {
+       translation 10 0 0
+       children [
+          KUBUS { translation 0 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 3 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK3 Transform {
+       translation 15 0 0
+       children [
+          KUBUS { translation 0 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK4 Transform {
+       translation 20 0 0
+       children [
+          KUBUS { translation 1 1 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 0 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK5 Transform {
+       translation 25 0 0
+       children [
+          KUBUS { translation 1 1 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 0 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK6 Transform {
+       translation 30 0 0
+       children [
+          KUBUS { translation 1 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 3 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK7 Transform {
+       translation 35 0 0
+       children [
+          KUBUS { translation 1 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 3 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK8 Transform {
+       translation 40 0 0
+       children [
+          KUBUS { translation 2 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 0 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK9 Transform {
+       translation 45 0 0
+       children [
+          KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 0 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK10 Transform {
+       translation 50 0 0
+       children [
+          KUBUS { translation 2 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 1 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK11 Transform {
+       translation 55 0 0
+       children [
+          KUBUS { translation 2 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 1 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK12 Transform {
+       translation 60 0 0
+       children [
+          KUBUS { translation 0 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 2 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK13 Transform {
+       translation 65 0 0
+       children [
+          KUBUS { translation 0 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 2 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK14 Transform {
+       translation 70 0 0
+       children [
+          KUBUS { translation 0 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 0 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK15 Transform {
+       translation 75 0 0
+       children [
+          KUBUS { translation 0 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 3 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK16 Transform {
+       translation 80 0 0
+       children [
+          KUBUS { translation 0 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 0 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK17 Transform {
+       translation 0 5 0
+       children [
+          KUBUS { translation 0 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 0 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK18 Transform {
+       translation 5 5 0
+       children [
+          KUBUS { translation 1 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK19 Transform {
+       translation 10 5 0
+       children [
+          KUBUS { translation 1 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK20 Transform {
+       translation 15 5 0
+       children [
+          KUBUS { translation 1 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 1 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 0 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK21 Transform {
+       translation 20 5 0
+       children [
+          KUBUS { translation 1 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 1 3 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK22 Transform {
+       translation 25 5 0
+       children [
+          KUBUS { translation 1 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 1 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 2 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK23 Transform {
+       translation 30 5 0
+       children [
+          KUBUS { translation 1 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 1 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK24 Transform {
+       translation 35 5 0
+       children [
+          KUBUS { translation 0 0 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK25 Transform {
+       translation 40 5 0
+       children [
+          KUBUS { translation 0 0 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK26 Transform {
+       translation 45 5 0
+       children [
+          KUBUS { translation 0 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK27 Transform {
+       translation 50 5 0
+       children [
+          KUBUS { translation 0 1 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK28 Transform {
+       translation 55 5 0
+       children [
+          KUBUS { translation 0 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK29 Transform {
+       translation 60 5 0
+       children [
+          KUBUS { translation 0 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK30 Transform {
+       translation 65 5 0
+       children [
+          KUBUS { translation 1 0 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK31 Transform {
+       translation 70 5 0
+       children [
+          KUBUS { translation 1 0 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 0 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK32 Transform {
+       translation 75 5 0
+       children [
+          KUBUS { translation 1 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK33 Transform {
+       translation 80 5 0
+       children [
+          KUBUS { translation 1 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK34 Transform {
+       translation 0 10 0
+       children [
+          KUBUS { translation 1 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK35 Transform {
+       translation 5 10 0
+       children [
+          KUBUS { translation 1 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK36 Transform {
+       translation 10 10 0
+       children [
+          KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK37 Transform {
+       translation 15 10 0
+       children [
+          KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK38 Transform {
+       translation 20 10 0
+       children [
+          KUBUS { translation 0 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK39 Transform {
+       translation 25 10 0
+       children [
+          KUBUS { translation 0 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK40 Transform {
+       translation 30 10 0
+       children [
+          KUBUS { translation 0 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK41 Transform {
+       translation 35 10 0
+       children [
+          KUBUS { translation 0 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK42 Transform {
+       translation 40 10 0
+       children [
+          KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK43 Transform {
+       translation 45 10 0
+       children [
+          KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 3 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK44 Transform {
+       translation 50 10 0
+       children [
+          KUBUS { translation 1 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK45 Transform {
+       translation 55 10 0
+       children [
+          KUBUS { translation 1 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK46 Transform {
+       translation 60 10 0
+       children [
+          KUBUS { translation 1 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 2 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK47 Transform {
+       translation 65 10 0
+       children [
+          KUBUS { translation 1 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK48 Transform {
+       translation 70 10 0
+       children [
+          KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK49 Transform {
+       translation 75 10 0
+       children [
+          KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK50 Transform {
+       translation 80 10 0
+       children [
+          KUBUS { translation 0 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 0 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 0 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK51 Transform {
+       translation 0 15 0
+       children [
+          KUBUS { translation 0 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK52 Transform {
+       translation 5 15 0
+       children [
+          KUBUS { translation 0 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK53 Transform {
+       translation 10 15 0
+       children [
+          KUBUS { translation 0 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK54 Transform {
+       translation 15 15 0
+       children [
+          KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK55 Transform {
+       translation 20 15 0
+       children [
+          KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 0 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK56 Transform {
+       translation 25 15 0
+       children [
+          KUBUS { translation 1 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 0 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 0 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK57 Transform {
+       translation 30 15 0
+       children [
+          KUBUS { translation 1 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 3 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 3 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK58 Transform {
+       translation 35 15 0
+       children [
+          KUBUS { translation 1 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 1 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 1 2 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK59 Transform {
+       translation 40 15 0
+       children [
+          KUBUS { translation 1 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 1 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 1 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK60 Transform {
+       translation 45 15 0
+       children [
+          KUBUS { translation 0 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 2 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK61 Transform {
+       translation 50 15 0
+       children [
+          KUBUS { translation 0 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 2 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK62 Transform {
+       translation 55 15 0
+       children [
+          KUBUS { translation 0 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 3 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK63 Transform {
+       translation 60 15 0
+       children [
+          KUBUS { translation 0 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 3 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK64 Transform {
+       translation 65 15 0
+       children [
+          KUBUS { translation 1 0 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 0 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK65 Transform {
+       translation 70 15 0
+       children [
+          KUBUS { translation 1 0 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK66 Transform {
+       translation 75 15 0
+       children [
+          KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 2 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 3 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK67 Transform {
+       translation 80 15 0
+       children [
+          KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 2 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 3 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 1 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK68 Transform {
+       translation 0 20 0
+       children [
+          KUBUS { translation 2 0 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK69 Transform {
+       translation 5 20 0
+       children [
+          KUBUS { translation 2 0 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK70 Transform {
+       translation 10 20 0
+       children [
+          KUBUS { translation 2 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 0 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK71 Transform {
+       translation 15 20 0
+       children [
+          KUBUS { translation 2 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK72 Transform {
+       translation 20 20 0
+       children [
+          KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK73 Transform {
+       translation 25 20 0
+       children [
+          KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK74 Transform {
+       translation 30 20 0
+       children [
+          KUBUS { translation 0 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK75 Transform {
+       translation 35 20 0
+       children [
+          KUBUS { translation 0 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK76 Transform {
+       translation 40 20 0
+       children [
+          KUBUS { translation 0 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 0 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK77 Transform {
+       translation 45 20 0
+       children [
+          KUBUS { translation 0 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 0 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK78 Transform {
+       translation 50 20 0
+       children [
+          KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 1 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK79 Transform {
+       translation 55 20 0
+       children [
+          KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 1 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK80 Transform {
+       translation 60 20 0
+       children [
+          KUBUS { translation 1 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 1 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK81 Transform {
+       translation 65 20 0
+       children [
+          KUBUS { translation 1 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 1 2 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK82 Transform {
+       translation 70 20 0
+       children [
+          KUBUS { translation 1 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 1 3 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK83 Transform {
+       translation 75 20 0
+       children [
+          KUBUS { translation 1 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 1 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK84 Transform {
+       translation 80 20 0
+       children [
+          KUBUS { translation 0 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK85 Transform {
+       translation 0 25 0
+       children [
+          KUBUS { translation 0 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK86 Transform {
+       translation 5 25 0
+       children [
+          KUBUS { translation 0 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 0 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK87 Transform {
+       translation 10 25 0
+       children [
+          KUBUS { translation 0 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 1 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK88 Transform {
+       translation 15 25 0
+       children [
+          KUBUS { translation 0 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 0 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK89 Transform {
+       translation 20 25 0
+       children [
+          KUBUS { translation 0 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 0 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK90 Transform {
+       translation 25 25 0
+       children [
+          KUBUS { translation 1 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK91 Transform {
+       translation 30 25 0
+       children [
+          KUBUS { translation 1 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 0 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 1 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK92 Transform {
+       translation 35 25 0
+       children [
+          KUBUS { translation 1 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 1 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 0 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK93 Transform {
+       translation 40 25 0
+       children [
+          KUBUS { translation 1 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 1 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 3 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK94 Transform {
+       translation 45 25 0
+       children [
+          KUBUS { translation 1 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 1 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK95 Transform {
+       translation 50 25 0
+       children [
+          KUBUS { translation 1 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 1 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK96 Transform {
+       translation 55 25 0
+       children [
+          KUBUS { translation 0 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK97 Transform {
+       translation 60 25 0
+       children [
+          KUBUS { translation 0 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK98 Transform {
+       translation 65 25 0
+       children [
+          KUBUS { translation 0 1 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK99 Transform {
+       translation 70 25 0
+       children [
+          KUBUS { translation 0 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK100 Transform {
+       translation 75 25 0
+       children [
+          KUBUS { translation 0 2 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 0 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK101 Transform {
+       translation 80 25 0
+       children [
+          KUBUS { translation 0 2 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 0 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK102 Transform {
+       translation 0 30 0
+       children [
+          KUBUS { translation 1 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK103 Transform {
+       translation 5 30 0
+       children [
+          KUBUS { translation 1 0 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK104 Transform {
+       translation 10 30 0
+       children [
+          KUBUS { translation 1 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 1 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK105 Transform {
+       translation 15 30 0
+       children [
+          KUBUS { translation 1 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 1 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK106 Transform {
+       translation 20 30 0
+       children [
+          KUBUS { translation 1 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 1 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK107 Transform {
+       translation 25 30 0
+       children [
+          KUBUS { translation 1 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 1 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK108 Transform {
+       translation 30 30 0
+       children [
+          KUBUS { translation 0 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 0 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK109 Transform {
+       translation 35 30 0
+       children [
+          KUBUS { translation 0 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 0 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK110 Transform {
+       translation 40 30 0
+       children [
+          KUBUS { translation 0 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK111 Transform {
+       translation 45 30 0
+       children [
+          KUBUS { translation 0 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 1 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK112 Transform {
+       translation 50 30 0
+       children [
+          KUBUS { translation 0 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 0 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK113 Transform {
+       translation 55 30 0
+       children [
+          KUBUS { translation 0 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 0 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK114 Transform {
+       translation 60 30 0
+       children [
+          KUBUS { translation 1 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 0 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK115 Transform {
+       translation 65 30 0
+       children [
+          KUBUS { translation 1 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 0 3 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK116 Transform {
+       translation 70 30 0
+       children [
+          KUBUS { translation 1 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 1 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK117 Transform {
+       translation 75 30 0
+       children [
+          KUBUS { translation 1 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 1 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK118 Transform {
+       translation 80 30 0
+       children [
+          KUBUS { translation 1 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 1 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 2 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK119 Transform {
+       translation 0 35 0
+       children [
+          KUBUS { translation 1 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 1 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK120 Transform {
+       translation 5 35 0
+       children [
+          KUBUS { translation 0 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK121 Transform {
+       translation 10 35 0
+       children [
+          KUBUS { translation 0 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK122 Transform {
+       translation 15 35 0
+       children [
+          KUBUS { translation 0 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 3 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK123 Transform {
+       translation 20 35 0
+       children [
+          KUBUS { translation 0 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK124 Transform {
+       translation 25 35 0
+       children [
+          KUBUS { translation 1 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 0 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 0 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK125 Transform {
+       translation 30 35 0
+       children [
+          KUBUS { translation 1 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 0 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK126 Transform {
+       translation 35 35 0
+       children [
+          KUBUS { translation 1 2 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 3 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK127 Transform {
+       translation 40 35 0
+       children [
+          KUBUS { translation 1 2 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 3 1 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK128 Transform {
+       translation 45 35 0
+       children [
+          KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 0 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK129 Transform {
+       translation 50 35 0
+       children [
+          KUBUS { translation 2 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 0 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK130 Transform {
+       translation 55 35 0
+       children [
+          KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 0 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK131 Transform {
+       translation 60 35 0
+       children [
+          KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK132 Transform {
+       translation 65 35 0
+       children [
+          KUBUS { translation 0 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK133 Transform {
+       translation 70 35 0
+       children [
+          KUBUS { translation 0 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK134 Transform {
+       translation 75 35 0
+       children [
+          KUBUS { translation 0 0 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 0 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK135 Transform {
+       translation 80 35 0
+       children [
+          KUBUS { translation 0 1 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK136 Transform {
+       translation 0 40 0
+       children [
+          KUBUS { translation 0 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK137 Transform {
+       translation 5 40 0
+       children [
+          KUBUS { translation 0 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK138 Transform {
+       translation 10 40 0
+       children [
+          KUBUS { translation 1 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK139 Transform {
+       translation 15 40 0
+       children [
+          KUBUS { translation 1 0 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 1 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK140 Transform {
+       translation 20 40 0
+       children [
+          KUBUS { translation 1 0 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 0 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK141 Transform {
+       translation 25 40 0
+       children [
+          KUBUS { translation 1 1 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 3 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 3 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK142 Transform {
+       translation 30 40 0
+       children [
+          KUBUS { translation 1 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK143 Transform {
+       translation 35 40 0
+       children [
+          KUBUS { translation 1 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK144 Transform {
+       translation 40 40 0
+       children [
+          KUBUS { translation 0 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK145 Transform {
+       translation 45 40 0
+       children [
+          KUBUS { translation 0 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK146 Transform {
+       translation 50 40 0
+       children [
+          KUBUS { translation 0 2 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 0 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 0 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK147 Transform {
+       translation 55 40 0
+       children [
+          KUBUS { translation 0 3 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK148 Transform {
+       translation 60 40 0
+       children [
+          KUBUS { translation 0 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK149 Transform {
+       translation 65 40 0
+       children [
+          KUBUS { translation 0 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK150 Transform {
+       translation 70 40 0
+       children [
+          KUBUS { translation 1 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK151 Transform {
+       translation 75 40 0
+       children [
+          KUBUS { translation 1 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK152 Transform {
+       translation 80 40 0
+       children [
+          KUBUS { translation 1 2 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 0 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 0 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK153 Transform {
+       translation 0 45 0
+       children [
+          KUBUS { translation 1 3 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 3 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK154 Transform {
+       translation 5 45 0
+       children [
+          KUBUS { translation 1 3 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 1 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 2 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK155 Transform {
+       translation 10 45 0
+       children [
+          KUBUS { translation 1 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 1 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK156 Transform {
+       translation 15 45 0
+       children [
+          KUBUS { translation 0 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK157 Transform {
+       translation 20 45 0
+       children [
+          KUBUS { translation 0 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK158 Transform {
+       translation 25 45 0
+       children [
+          KUBUS { translation 0 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 3 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 3 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK159 Transform {
+       translation 30 45 0
+       children [
+          KUBUS { translation 0 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK160 Transform {
+       translation 35 45 0
+       children [
+          KUBUS { translation 1 0 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 0 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK161 Transform {
+       translation 40 45 0
+       children [
+          KUBUS { translation 1 0 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 0 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK162 Transform {
+       translation 45 45 0
+       children [
+          KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 3 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 3 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK163 Transform {
+       translation 50 45 0
+       children [
+          KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 3 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 3 3 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK164 Transform {
+       translation 55 45 0
+       children [
+          KUBUS { translation 2 0 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 0 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK165 Transform {
+       translation 60 45 0
+       children [
+          KUBUS { translation 2 0 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 0 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK166 Transform {
+       translation 65 45 0
+       children [
+          KUBUS { translation 2 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 2 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK167 Transform {
+       translation 70 45 0
+       children [
+          KUBUS { translation 2 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK168 Transform {
+       translation 75 45 0
+       children [
+          KUBUS { translation 0 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 2 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK169 Transform {
+       translation 80 45 0
+       children [
+          KUBUS { translation 0 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 2 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK170 Transform {
+       translation 0 50 0
+       children [
+          KUBUS { translation 0 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 3 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 3 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK171 Transform {
+       translation 5 50 0
+       children [
+          KUBUS { translation 0 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 3 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 3 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK172 Transform {
+       translation 10 50 0
+       children [
+          KUBUS { translation 1 0 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 0 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK173 Transform {
+       translation 15 50 0
+       children [
+          KUBUS { translation 1 0 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 0 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK174 Transform {
+       translation 20 50 0
+       children [
+          KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 2 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 3 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 3 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK175 Transform {
+       translation 25 50 0
+       children [
+          KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 2 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 3 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 3 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK176 Transform {
+       translation 30 50 0
+       children [
+          KUBUS { translation 2 0 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 0 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK177 Transform {
+       translation 35 50 0
+       children [
+          KUBUS { translation 2 0 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 0 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK178 Transform {
+       translation 40 50 0
+       children [
+          KUBUS { translation 2 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 1 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK179 Transform {
+       translation 45 50 0
+       children [
+          KUBUS { translation 2 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK180 Transform {
+       translation 50 50 0
+       children [
+          KUBUS { translation 0 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 2 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK181 Transform {
+       translation 55 50 0
+       children [
+          KUBUS { translation 0 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 2 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK182 Transform {
+       translation 60 50 0
+       children [
+          KUBUS { translation 0 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 0 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 0 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK183 Transform {
+       translation 65 50 0
+       children [
+          KUBUS { translation 0 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 3 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK184 Transform {
+       translation 70 50 0
+       children [
+          KUBUS { translation 0 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK185 Transform {
+       translation 75 50 0
+       children [
+          KUBUS { translation 0 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK186 Transform {
+       translation 80 50 0
+       children [
+          KUBUS { translation 1 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK187 Transform {
+       translation 0 55 0
+       children [
+          KUBUS { translation 1 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 2 1 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK188 Transform {
+       translation 5 55 0
+       children [
+          KUBUS { translation 1 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 0 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 0 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK189 Transform {
+       translation 10 55 0
+       children [
+          KUBUS { translation 1 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 3 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 3 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK190 Transform {
+       translation 15 55 0
+       children [
+          KUBUS { translation 1 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 1 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK191 Transform {
+       translation 20 55 0
+       children [
+          KUBUS { translation 1 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 1 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK192 Transform {
+       translation 25 55 0
+       children [
+          KUBUS { translation 0 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK193 Transform {
+       translation 30 55 0
+       children [
+          KUBUS { translation 0 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK194 Transform {
+       translation 35 55 0
+       children [
+          KUBUS { translation 0 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK195 Transform {
+       translation 40 55 0
+       children [
+          KUBUS { translation 0 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK196 Transform {
+       translation 45 55 0
+       children [
+          KUBUS { translation 0 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 0 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 3 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK197 Transform {
+       translation 50 55 0
+       children [
+          KUBUS { translation 0 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 0 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 3 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK198 Transform {
+       translation 55 55 0
+       children [
+          KUBUS { translation 1 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK199 Transform {
+       translation 60 55 0
+       children [
+          KUBUS { translation 1 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK200 Transform {
+       translation 65 55 0
+       children [
+          KUBUS { translation 1 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 1 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK201 Transform {
+       translation 70 55 0
+       children [
+          KUBUS { translation 1 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 1 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK202 Transform {
+       translation 75 55 0
+       children [
+          KUBUS { translation 1 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 1 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK203 Transform {
+       translation 80 55 0
+       children [
+          KUBUS { translation 1 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 1 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK204 Transform {
+       translation 0 60 0
+       children [
+          KUBUS { translation 0 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK205 Transform {
+       translation 5 60 0
+       children [
+          KUBUS { translation 0 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK206 Transform {
+       translation 10 60 0
+       children [
+          KUBUS { translation 0 1 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 3 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK207 Transform {
+       translation 15 60 0
+       children [
+          KUBUS { translation 0 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 3 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK208 Transform {
+       translation 20 60 0
+       children [
+          KUBUS { translation 1 0 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK209 Transform {
+       translation 25 60 0
+       children [
+          KUBUS { translation 1 0 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK210 Transform {
+       translation 30 60 0
+       children [
+          KUBUS { translation 1 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 2 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 3 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK211 Transform {
+       translation 35 60 0
+       children [
+          KUBUS { translation 1 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 2 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 3 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 3 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK212 Transform {
+       translation 40 60 0
+       children [
+          KUBUS { translation 2 0 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK213 Transform {
+       translation 45 60 0
+       children [
+          KUBUS { translation 2 0 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK214 Transform {
+       translation 50 60 0
+       children [
+          KUBUS { translation 2 1 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 2 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK215 Transform {
+       translation 55 60 0
+       children [
+          KUBUS { translation 2 1 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK216 Transform {
+       translation 60 60 0
+       children [
+          KUBUS { translation 0 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK217 Transform {
+       translation 65 60 0
+       children [
+          KUBUS { translation 0 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK218 Transform {
+       translation 70 60 0
+       children [
+          KUBUS { translation 0 0 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK219 Transform {
+       translation 75 60 0
+       children [
+          KUBUS { translation 0 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK220 Transform {
+       translation 80 60 0
+       children [
+          KUBUS { translation 0 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 0 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK221 Transform {
+       translation 0 65 0
+       children [
+          KUBUS { translation 0 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 0 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK222 Transform {
+       translation 5 65 0
+       children [
+          KUBUS { translation 1 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK223 Transform {
+       translation 10 65 0
+       children [
+          KUBUS { translation 1 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK224 Transform {
+       translation 15 65 0
+       children [
+          KUBUS { translation 1 0 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 1 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK225 Transform {
+       translation 20 65 0
+       children [
+          KUBUS { translation 1 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 1 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 3 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK226 Transform {
+       translation 25 65 0
+       children [
+          KUBUS { translation 1 1 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 1 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 2 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK227 Transform {
+       translation 30 65 0
+       children [
+          KUBUS { translation 1 1 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 1 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK228 Transform {
+       translation 35 65 0
+       children [
+          KUBUS { translation 0 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK229 Transform {
+       translation 40 65 0
+       children [
+          KUBUS { translation 0 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK230 Transform {
+       translation 45 65 0
+       children [
+          KUBUS { translation 0 3 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 3 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK231 Transform {
+       translation 50 65 0
+       children [
+          KUBUS { translation 0 3 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK232 Transform {
+       translation 55 65 0
+       children [
+          KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 0 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 0 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK233 Transform {
+       translation 60 65 0
+       children [
+          KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 0 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 0 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK234 Transform {
+       translation 65 65 0
+       children [
+          KUBUS { translation 1 3 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 2 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 3 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK235 Transform {
+       translation 70 65 0
+       children [
+          KUBUS { translation 1 3 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 2 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 3 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK236 Transform {
+       translation 75 65 0
+       children [
+          KUBUS { translation 2 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 0 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 0 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK237 Transform {
+       translation 80 65 0
+       children [
+          KUBUS { translation 2 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 0 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 0 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK238 Transform {
+       translation 0 70 0
+       children [
+          KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 1 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK239 Transform {
+       translation 5 70 0
+       children [
+          KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 1 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK240 Transform {
+       translation 10 70 0
+       children [
+          KUBUS { translation 0 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK241 Transform {
+       translation 15 70 0
+       children [
+          KUBUS { translation 0 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK242 Transform {
+       translation 20 70 0
+       children [
+          KUBUS { translation 0 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 0 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 2 3 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK243 Transform {
+       translation 25 70 0
+       children [
+          KUBUS { translation 0 2 0 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 3 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK244 Transform {
+       translation 30 70 0
+       children [
+          KUBUS { translation 0 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 0 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK245 Transform {
+       translation 35 70 0
+       children [
+          KUBUS { translation 0 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 0 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK246 Transform {
+       translation 40 70 0
+       children [
+          KUBUS { translation 1 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK247 Transform {
+       translation 45 70 0
+       children [
+          KUBUS { translation 1 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 2 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK248 Transform {
+       translation 50 70 0
+       children [
+          KUBUS { translation 1 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 1 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 0 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 3 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK249 Transform {
+       translation 55 70 0
+       children [
+          KUBUS { translation 1 2 0 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 1 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 3 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK250 Transform {
+       translation 60 70 0
+       children [
+          KUBUS { translation 1 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 1 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 1 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 2 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK251 Transform {
+       translation 65 70 0
+       children [
+          KUBUS { translation 1 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 1 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 1 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK252 Transform {
+       translation 70 70 0
+       children [
+          KUBUS { translation 0 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 0 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK253 Transform {
+       translation 75 70 0
+       children [
+          KUBUS { translation 0 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 0 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK254 Transform {
+       translation 80 70 0
+       children [
+          KUBUS { translation 0 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 1 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK255 Transform {
+       translation 0 75 0
+       children [
+          KUBUS { translation 0 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 1 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK256 Transform {
+       translation 5 75 0
+       children [
+          KUBUS { translation 0 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 0 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK257 Transform {
+       translation 10 75 0
+       children [
+          KUBUS { translation 0 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK258 Transform {
+       translation 15 75 0
+       children [
+          KUBUS { translation 1 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 0 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK259 Transform {
+       translation 20 75 0
+       children [
+          KUBUS { translation 1 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 0 1 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK260 Transform {
+       translation 25 75 0
+       children [
+          KUBUS { translation 1 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK261 Transform {
+       translation 30 75 0
+       children [
+          KUBUS { translation 1 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK262 Transform {
+       translation 35 75 0
+       children [
+          KUBUS { translation 1 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 2 0 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK263 Transform {
+       translation 40 75 0
+       children [
+          KUBUS { translation 1 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK264 Transform {
+       translation 45 75 0
+       children [
+          KUBUS { translation 0 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 0 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 1 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 2 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK265 Transform {
+       translation 50 75 0
+       children [
+          KUBUS { translation 0 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 0 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 1 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 2 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK266 Transform {
+       translation 55 75 0
+       children [
+          KUBUS { translation 0 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 2 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 2 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK267 Transform {
+       translation 60 75 0
+       children [
+          KUBUS { translation 0 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 1 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 2 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 2 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK268 Transform {
+       translation 65 75 0
+       children [
+          KUBUS { translation 0 3 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 3 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 3 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK269 Transform {
+       translation 70 75 0
+       children [
+          KUBUS { translation 0 3 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 3 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 3 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK270 Transform {
+       translation 75 75 0
+       children [
+          KUBUS { translation 1 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 0 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 1 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 3 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK271 Transform {
+       translation 80 75 0
+       children [
+          KUBUS { translation 1 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 0 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 1 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 3 1 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK272 Transform {
+       translation 0 80 0
+       children [
+          KUBUS { translation 1 2 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK273 Transform {
+       translation 5 80 0
+       children [
+          KUBUS { translation 1 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK274 Transform {
+       translation 10 80 0
+       children [
+          KUBUS { translation 1 3 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK275 Transform {
+       translation 15 80 0
+       children [
+          KUBUS { translation 1 3 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
+
+DEF BLOCK276 Transform {
+       translation 20 80 0
+       children [
+          KUBUS { translation 0 0 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 0 2 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 0 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 1 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 0 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+      KUBUS { translation 1 2 1 color 0.6509803921568628 0.807843137254902 0.8901960784313725 }
+       ]}
+        
+
+DEF BLOCK277 Transform {
+       translation 25 80 0
+       children [
+          KUBUS { translation 0 0 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 0 3 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 1 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 1 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 0 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+      KUBUS { translation 1 2 2 color 0.12156862745098039 0.47058823529411764 0.7058823529411765 }
+       ]}
+        
+
+DEF BLOCK278 Transform {
+       translation 30 80 0
+       children [
+          KUBUS { translation 0 1 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 1 2 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 0 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 2 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 0 3 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+      KUBUS { translation 1 3 1 color 0.6980392156862745 0.8745098039215686 0.5411764705882353 }
+       ]}
+        
+
+DEF BLOCK279 Transform {
+       translation 35 80 0
+       children [
+          KUBUS { translation 0 1 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 1 3 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 1 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 2 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 0 3 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+      KUBUS { translation 1 3 2 color 0.2 0.6274509803921569 0.17254901960784313 }
+       ]}
+        
+
+DEF BLOCK280 Transform {
+       translation 40 80 0
+       children [
+          KUBUS { translation 1 0 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 0 2 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 0 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 1 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 1 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+      KUBUS { translation 2 2 1 color 0.984313725490196 0.6039215686274509 0.6 }
+       ]}
+        
+
+DEF BLOCK281 Transform {
+       translation 45 80 0
+       children [
+          KUBUS { translation 1 0 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 0 3 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 1 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 1 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 1 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+      KUBUS { translation 2 2 2 color 0.8901960784313725 0.10196078431372549 0.10980392156862745 }
+       ]}
+        
+
+DEF BLOCK282 Transform {
+       translation 50 80 0
+       children [
+          KUBUS { translation 1 1 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 1 2 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 2 0 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 2 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 1 3 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+      KUBUS { translation 2 3 1 color 0.9921568627450981 0.7490196078431373 0.43529411764705883 }
+       ]}
+        
+
+DEF BLOCK283 Transform {
+       translation 55 80 0
+       children [
+          KUBUS { translation 1 1 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 1 3 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 2 1 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 2 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 1 3 2 color 1.0 0.4980392156862745 0.0 }
+      KUBUS { translation 2 3 2 color 1.0 0.4980392156862745 0.0 }
+       ]}
+        
+
+DEF BLOCK284 Transform {
+       translation 60 80 0
+       children [
+          KUBUS { translation 2 0 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 0 2 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 0 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 1 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 2 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+      KUBUS { translation 3 2 1 color 0.792156862745098 0.6980392156862745 0.8392156862745098 }
+       ]}
+        
+
+DEF BLOCK285 Transform {
+       translation 65 80 0
+       children [
+          KUBUS { translation 2 0 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 0 3 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 1 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 1 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 2 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+      KUBUS { translation 3 2 2 color 0.41568627450980394 0.23921568627450981 0.6039215686274509 }
+       ]}
+        
+
+DEF BLOCK286 Transform {
+       translation 70 80 0
+       children [
+          KUBUS { translation 2 1 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 1 2 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 0 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 2 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 2 3 1 color 1.0 1.0 0.6 }
+      KUBUS { translation 3 3 1 color 1.0 1.0 0.6 }
+       ]}
+        
+
+DEF BLOCK287 Transform {
+       translation 75 80 0
+       children [
+          KUBUS { translation 2 1 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 1 3 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 1 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 2 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 2 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+      KUBUS { translation 3 3 2 color 0.6941176470588235 0.34901960784313724 0.1568627450980392 }
+       ]}
+        
