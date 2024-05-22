@@ -1,0 +1,22 @@
+.BlockVisualizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Ensures the controls are placed at the top */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .controls-container {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    border-radius: 0px;
+    margin-bottom: 0px; /* Adds space between controls and visualization */
+  }
+  
+  .visualization-container {
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 100px); /* Adjust height to fit the screen */
+  }

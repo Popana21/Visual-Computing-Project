@@ -1,28 +1,44 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import './BlockVisualizer.css';
 
 const BlockVisualizer = ({ blockData }) => {
     const mountRef = useRef(null);
     const [spacing, setSpacing] = useState(1); // initial spacing
-    const [enableZoom, setEnableZoom] = useState(true); // enable zoom flag
-    const [enableRotation, setEnableRotation] = useState(true); // enable rotation flag
-    const blocks = useRef([]);
+    const [enableRotation, setEnableRotation] = useState(true);
+    const [enableZoom, setEnableZoom] = useState(true);
     const controls = useRef(null);
-    const sceneCenter = useRef(new THREE.Vector3());
-    const cameraOffset = useRef(new THREE.Vector3());
+    const pieceColors = useRef([]);
+    const pieceGroups = useRef([]);
+    const sceneRef = useRef(null);
+    const cameraRef = useRef(null);
+    const rendererRef = useRef(null);
+
+    const initializeScene = () => {
+        sceneRef.current = new THREE.Scene();
+        cameraRef.current = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        rendererRef.current = new THREE.WebGLRenderer();
+        rendererRef.current.setSize(window.innerWidth, window.innerHeight);
+        mountRef.current.appendChild(rendererRef.current.domElement);
+
+        controls.current = new OrbitControls(cameraRef.current, rendererRef.current.domElement);
+        controls.current.enableZoom = enableZoom;
+        controls.current.enableRotate = enableRotation;
+
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+        sceneRef.current.add(ambientLight);
+
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+        directionalLight.position.set(1, 1, 1).normalize();
+        sceneRef.current.add(directionalLight);
+
+        cameraRef.current.position.z = 10;
+    };
 
     useEffect(() => {
-        const scene = new THREE.Scene();
-        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-        const renderer = new THREE.WebGLRenderer();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        mountRef.current.appendChild(renderer.domElement);
-
-        controls.current = new OrbitControls(camera, renderer.domElement);
-        controls.current.enableZoom = enableZoom; // Enable/disable zoom based on flag
-        controls.current.enableRotate = enableRotation; // Enable/disable rotation based on flag
-
+        initializeScene();
+        
         const parseBlockData = (data) => {
             const lines = data.trim().split('\n');
             return lines.map(line => line.trim().split(/\s+/).map(Number));
@@ -30,100 +46,141 @@ const BlockVisualizer = ({ blockData }) => {
 
         const blockPositions = parseBlockData(blockData);
 
+        // Assign colors to each piece once
+        if (pieceColors.current.length === 0) {
+            blockPositions.forEach(() => {
+                pieceColors.current.push(new THREE.Color(Math.random(), Math.random(), Math.random()));
+            });
+        }
+
         const createBlocks = () => {
-            blocks.current.forEach(block => scene.remove(block));
-            blocks.current = [];
+            pieceGroups.current.forEach(group => sceneRef.current.remove(group.group));
+            pieceGroups.current = [];
 
             blockPositions.forEach((positions, index) => {
+                const color = pieceColors.current[index];
+                const group = new THREE.Group();
+
                 for (let i = 0; i < positions.length; i += 3) {
                     const [x, y, z] = positions.slice(i, i + 3);
                     const geometry = new THREE.BoxGeometry();
-                    const material = new THREE.MeshBasicMaterial({ color: getRandomColor() });
+                    const material = new THREE.MeshPhongMaterial({ color, specular: 0x111111, shininess: 200 });
                     const block = new THREE.Mesh(geometry, material);
-                    block.position.set(x * spacing, y * spacing, z * spacing);
-                    scene.add(block);
-                    blocks.current.push(block);
+                    block.position.set(x, y, z); // Set position without spacing
+                    group.add(block);
                 }
+
+                sceneRef.current.add(group);
+                pieceGroups.current.push({ group, originalPositions: positions });
             });
-
-            // Calculate scene center
-            const box = new THREE.Box3().setFromObject(scene);
-            box.getCenter(sceneCenter.current);
-        };
-
-        const getRandomColor = () => {
-            const color = Math.random() * 0xffffff;
-            return color;
         };
 
         createBlocks();
 
-        camera.position.z = 10;
-
-        // Calculate camera offset from scene center
-        cameraOffset.current.copy(camera.position).sub(sceneCenter.current);
-
         const animate = () => {
             requestAnimationFrame(animate);
-            renderer.render(scene, camera);
-            controls.current.update(); // Update controls in each frame
+            rendererRef.current.render(sceneRef.current, cameraRef.current);
+            if (enableRotation) {
+                controls.current.update();
+            }
         };
 
         animate();
 
         return () => {
-            mountRef.current.removeChild(renderer.domElement);
-            controls.current.dispose(); // Dispose controls when unmounting
+            if (mountRef.current) {
+                mountRef.current.removeChild(rendererRef.current.domElement);
+            }
+            controls.current.dispose();
         };
-    }, [spacing, blockData, enableZoom, enableRotation]);
+    }, [blockData]);
+
+    useEffect(() => {
+        controls.current.enableRotate = enableRotation;
+    }, [enableRotation]);
+
+    useEffect(() => {
+        controls.current.enableZoom = enableZoom;
+    }, [enableZoom]);
+
+    useEffect(() => {
+        // Update spacing without recreating blocks
+        const center = new THREE.Vector3();
+        pieceGroups.current.forEach(({ group }) => {
+            center.add(group.position);
+        });
+        center.divideScalar(pieceGroups.current.length);
+
+        pieceGroups.current.forEach(({ group, originalPositions }) => {
+            group.position.set(0, 0, 0); // Reset position
+
+            const groupCenter = new THREE.Vector3();
+            for (let i = 0; i < originalPositions.length; i += 3) {
+                const [x, y, z] = originalPositions.slice(i, i + 3);
+                groupCenter.add(new THREE.Vector3(x, y, z));
+            }
+            groupCenter.divideScalar(originalPositions.length / 3);
+            const offset = new THREE.Vector3().subVectors(groupCenter, center).multiplyScalar(spacing - 1);
+            group.position.add(offset);
+        });
+    }, [spacing]);
 
     const handleSpacingChange = (e) => {
         setSpacing(parseFloat(e.target.value));
-        // Update camera position relative to scene center
-        const newPosition = sceneCenter.current.clone().add(cameraOffset.current.multiplyScalar(spacing));
-        controls.current.target.copy(sceneCenter.current);
-        controls.current.object.position.copy(newPosition);
-        controls.current.update();
-    };
-
-    const handleZoomChange = (e) => {
-        setEnableZoom(e.target.checked);
     };
 
     const handleRotationChange = (e) => {
         setEnableRotation(e.target.checked);
     };
 
+    const handleZoomChange = (e) => {
+        setEnableZoom(e.target.checked);
+    };
+
     return (
-        <div>
-            <div ref={mountRef} />
-            <input
-                type="range"
-                min="1"
-                max="5"
-                value={spacing}
-                onChange={handleSpacingChange}
-                step="0.1"
-            />
-            <label>Spacing: {spacing}</label>
-            <div>
-                <input
-                    type="checkbox"
-                    checked={enableZoom}
-                    onChange={handleZoomChange}
-                />
-                <label>Enable Zoom</label>
-            </div>
-            <div>
-                <input
-                    type="checkbox"
-                    checked={enableRotation}
-                    onChange={handleRotationChange}
-                />
-                <label>Enable Rotation</label>
-            </div>
+        <div className="App">
+            <header className="App-header">
+                <h1>3D Block Puzzle Visualizer</h1>
+                <div className="BlockVisualizer">
+                    <div className="controls-container">
+                        <div className="slider-container">
+                            <input
+                                type="range"
+                                min="1"
+                                max="2"
+                                value={spacing}
+                                onChange={handleSpacingChange}
+                                step="0.05"
+                                style={{ width: "100px", background: "black", color: "white" }}
+                            />
+                            <label style={{ color: "white" }}>Spacing: {spacing}</label>
+                        </div>
+
+                        <div className="checkbox-container">
+                            <input
+                                type="checkbox"
+                                id="rotationCheckbox"
+                                checked={enableRotation}
+                                onChange={handleRotationChange}
+                            />
+                            <label htmlFor="rotationCheckbox" style={{ color: "white" }}>Enable Rotation</label>
+                        </div>
+
+                        <div className="checkbox-container">
+                            <input
+                                type="checkbox"
+                                id="zoomCheckbox"
+                                checked={enableZoom}
+                                onChange={handleZoomChange}
+                            />
+                            <label htmlFor="zoomCheckbox" style={{ color: "white" }}>Enable Zoom</label>
+                        </div>
+                    </div>
+                    <div ref={mountRef} className="visualization-container" />
+                </div>
+            </header>
         </div>
     );
-};
+}
 
 export default BlockVisualizer;
