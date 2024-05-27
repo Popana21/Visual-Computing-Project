@@ -26,10 +26,10 @@ const BlockVisualizer = ({ blockData }) => {
         controls.current.enableZoom = enableZoom;
         controls.current.enableRotate = enableRotation;
 
-        const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.8); // Increased intensity
         sceneRef.current.add(ambientLight);
 
-        const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 1.0); // Increased intensity
         directionalLight.position.set(1, 1, 1).normalize();
         sceneRef.current.add(directionalLight);
 
@@ -64,7 +64,7 @@ const BlockVisualizer = ({ blockData }) => {
                 for (let i = 0; i < positions.length; i += 3) {
                     const [x, y, z] = positions.slice(i, i + 3);
                     const geometry = new THREE.BoxGeometry();
-                    const material = new THREE.MeshPhongMaterial({ color, specular: 0x111111, shininess: 200 });
+                    const material = new THREE.MeshStandardMaterial({ color, roughness: 0.3, metalness: 0.5 });
                     const block = new THREE.Mesh(geometry, material);
                     block.position.set(x, y, z); // Set position without spacing
                     group.add(block);
