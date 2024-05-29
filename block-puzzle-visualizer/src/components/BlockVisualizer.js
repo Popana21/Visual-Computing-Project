@@ -181,6 +181,6 @@ const BlockVisualizer = ({ blockData }) => {
             </header>
         </div>
     );
-}
+};
 
 export default BlockVisualizer;
