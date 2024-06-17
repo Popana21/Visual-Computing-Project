@@ -171,7 +171,7 @@ const BlockVisualizer = ({ blockData }) => {
                             <input
                                 type="range"
                                 min="1"
-                                max="2"
+                                max="3"
                                 value={spacing}
                                 onChange={handleSpacingChange}
                                 step="0.05"
